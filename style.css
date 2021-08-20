@@ -1,0 +1,137 @@
+/* STYLE SECTIONING TAGS */
+body {
+  margin: 0%;
+  background-color: #fbeec1;
+}
+p {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  color: #bc986a;
+  font-size: 20px;
+}
+
+/*Also another note, I just noticed that when you make the screen width reallly small, the images begin to overlap because of the padding. This isn't too big of a deal, but if you did want to fix that, what you could do is instead add padding/margins to the inside of the images so that they won't be able to overlap. This'll be more complicated to do (This somewhat works for now (the commented area around line 40 is the added stuff): https://replit.com/@camelliaguangwc/Pillow-Pet-Quiz#style.css). 
+okay i will look into that! thank you for all your help! sorry it took so long!
+thank you! do i just copy and paste it into here? 
+If you would like to! Honestly your project works pretty well already so if you don't want to then you don't have to. All I did was add a couple of classes for the images. if you would like, I could also just copy and paste what I did since there's a bunch of small places that might be missed and I don't want you to override anything that you've done after
+that would be nice if you dont mind doing that
+
+is there a way to make a picture pop up only at the end of the quiz? i want there to be a pic of the moose/cow based on the person's results
+
+not entirely sure, will let you know!
+thank you! and thanks again for helping with all this!!  
+  
+So there is a way to add an image and here is an example: https://replit.com/@camelliaguangwc/Testing-Image-Creation-Using-JS
+thank you i will look at this!
+This'll keep adding an image every single time you click the button, and I don't know how to make it not keep adding images except by disabling the button (also added a way to change an existing image).
+
+Your images should be updated so that they always stay in the center, and the sizes of your buttons match the sizing of your images.
+thank you! i gave up on the moose/cow pic at the end
+Alright! If you ever wanted to do that, I did add some stuff after you forked the file that might be helpful. ill take a look at it!
+*/
+
+
+/* STYLE TEXT */
+h1 {
+  font-family: 'Indie Flower', cursive;
+  background-color: #bc986a;
+  color: #fbeec1;
+  text-align: center;
+  padding: 1em;
+  margin: 0%;
+}
+
+h2 {
+  margin-top: 2em; 
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: #bc986a;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+  width: 50%;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+}
+
+/* adjust the margin-left and margin-right (make sure they're the same) in order to make the images closer together or further apart */
+.leftImage {
+  text-align:right;
+  padding-right: 5%;
+  
+}
+
+.rightImage {
+  padding-left: 5%;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  width: 10.62em;
+  font-family: 'Indie Flower', cursive;
+}
+
+#restart {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+img {
+  border: 5px solid #bc986a;
+}
+button {
+  background-color: #bc986a;
+  font-size: 16px;
+  padding: 14px 40px;
+  margin: auto;
+}
+button:hover {
+  background-color: #659dbd;
+  color: white; 
+}
+a {
+ font-family: 'Indie Flower', cursive;
+}
+nav {
+   font-family: 'Kirang Haerang', cursive;
+   color: #CCD5AE;
+   text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 1em;
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: #bc986a;
+  font-size: 1.3em;
+  padding: 1em;
+}
+li a:hover {
+  background-color: #CCD5AE
+
+}
+
+.centerpics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
